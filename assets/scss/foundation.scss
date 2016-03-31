@@ -75,6 +75,18 @@
   Add your scss files below to structure your project styles
 */
 
+@import "templates/page-about";
+@import "templates/page-apply-releaseDog";
+@import "templates/page-apply-serviceDog";
+@import "templates/page-apply-volunteer";
+@import "templates/page-awards";
+@import "templates/page-contact-us";
+@import "templates/page-faq";
+@import "templates/page-home";
+@import "templates/page-media";
+@import "templates/page-programs";
+@import "templates/page-puppy-placement";
+
 // Modules
 @import "modules/navigation";
 @import "modules/footer";
