@@ -16,4 +16,17 @@
 			padding: 0;
 		}
 	}
+
+	.bold {font-weight: bold;}
+
+	.social-media {
+		p {margin-bottom: 0;}
+	}
+
+}
+
+#copyright {
+	background-color: $black;
+	color: $white;
+	padding-top:.5em;
 }
