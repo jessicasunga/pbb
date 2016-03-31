@@ -13,6 +13,14 @@
 		</section>
 		<div id="footer-container">
 			<footer id="footer">
+				<div class="row display">
+					<div class="small-6 columns">
+						<h1>HELLO THIS IS A FOOTER TEST</h1>
+					</div>
+					<div class="small-6 columns">
+						<h1>SECOND FOOTER TEST!?</h1>
+					</div>
+				</div>
 				<?php do_action( 'foundationpress_before_footer' ); ?>
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
 				<?php do_action( 'foundationpress_after_footer' ); ?>
