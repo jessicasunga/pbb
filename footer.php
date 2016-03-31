@@ -15,8 +15,8 @@
 			<footer id="footer">
 				<div class="row display">
 					<div class="medium-9 columns">
-						<a href="#" class="button">Sponsor a Puppy</a>
-						<a href="#" class="button">Make a Donation</a>
+						<a href="#" class="footer-button button bold">Sponsor a Puppy</a>
+						<a href="#" class="footer-button button bold">Make a Donation</a>
 					</div>
 					<div class="medium-3 columns hide-for-small-only">
 						<div class="social-media">

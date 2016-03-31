@@ -6,3 +6,14 @@
   border-radius: 3px;
   border: none;
 }
+
+.footer-button {
+	background: $yellow;
+	border-radius: 2px;
+	border: none;
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		background: #f4a730;
+	}
+}
