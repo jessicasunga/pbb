@@ -1,17 +1,42 @@
 .sites-button {
-  background: #FF6908;
-  font-size: 1.25rem;
+  background: $red-orange;
+  font-size: 1rem;
   font-weight: bold;
-  box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;
-  border-radius: 3px;
+  border-radius: 2px;
   border: none;
+  transition: all 0.2s ease-in-out;
+
+	&:hover {
+		background: #ad3e2b;
+	}
+
+}
+
+.header-button {
+  background: $red-orange;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  margin-top: .5em;
+
+	&:hover {
+		background: #ad3e2b;
+	}
+
 }
 
 .footer-button {
+	margin-bottom: 5em;
 	background: $yellow;
 	border-radius: 2px;
 	border: none;
 	transition: all 0.2s ease-in-out;
+
+	&:first-child {
+		margin-left: 0;
+	}
 
 	&:hover {
 		background: #f4a730;

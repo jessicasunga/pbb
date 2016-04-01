@@ -43,14 +43,30 @@
 		</div>
 
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
+			<div class="yellow-bar"></div>
 			<div class="top-bar-left">
-				<ul class="menu">
-					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
-				</ul>
+				<div class="row">
+					<div class="small-4 columns">
+						<img src="wp-content/themes/pbb/assets/images/newLogo.png" />
+					</div>
+					<div class="small-8 columns">
+						<ul class="dropdown menu" role="menubar">
+							<li role="menuitem" class="is-dropdown-submenu-parent opens-right" aria-haspopup="true" aria-expanded="false" aria-label="Item 1" data-is-click="false"><a tabindex="0">Home</a></li>
+							<li role="menuitem" class="is-dropdown-submenu-parent opens-right" aria-haspopup="true" aria-expanded="false" aria-label="Item 1" data-is-click="false"><a tabindex="0">Awards</a></li>
+							<li role="menuitem" class="is-dropdown-submenu-parent opens-right" aria-haspopup="true" aria-expanded="false" aria-label="Item 1" data-is-click="false"><a tabindex="0">Photos</a></li>
+							<li role="menuitem" class="is-dropdown-submenu-parent opens-right" aria-haspopup="true" aria-expanded="false" aria-label="Item 1" data-is-click="false"><a tabindex="0">About</a></li>
+							<li role="menuitem" class="is-dropdown-submenu-parent opens-right" aria-haspopup="true" aria-expanded="false" aria-label="Item 1" data-is-click="false"><a tabindex="0">Awards</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 			<div class="top-bar-right">
+				<div class="header-buttons">
+					<a href="#" class="header-button medium button">Donate</a>
+					<a href="#" class="header-button medium button">Apply</a>
+				</div>
+				<br>
 				<?php foundationpress_top_bar_r(); ?>
-
 				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'topbar' ) : ?>
 					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
 				<?php endif; ?>

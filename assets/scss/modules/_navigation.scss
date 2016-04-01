@@ -25,7 +25,53 @@
 }
 
 /* Tablet and desktop menu */
+
+
 .top-bar {
+
+  background-color: transparent;
+
+  ul {background-color: transparent;}
+
+  .menu {
+
+      margin-top: 3em;
+
+      li {
+
+        border-right: none !important;
+
+        a {
+
+          color: inherit;
+          font-size: 1.1rem;
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            background-color: transparent !important; 
+            text-decoration: underline;
+            
+          }
+
+        }
+
+      }
+
+  }
+
+  .yellow-bar {
+    background-color: $yellow;
+    height: 10px;
+  }
+
+  .top-bar-left{
+
+      img {
+        max-width: 200px;
+        width: 100%;
+        padding: .5em .5em;
+      }
+  }
 
   .menu .home a {
     font-size: 1rem;

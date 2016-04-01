@@ -9,70 +9,69 @@
  */
 
 ?>
-
 		</section>
 		<div id="footer-container">
 			<footer id="footer">
-				<div class="row display">
-					<div class="medium-9 columns">
+				<div class="row">
+					<div class="medium-8 large-9 columns">
 						<a href="#" class="footer-button button bold">Sponsor a Puppy</a>
 						<a href="#" class="footer-button button bold">Make a Donation</a>
 					</div>
-					<div class="medium-3 columns hide-for-small-only">
+					<div class="medium-4 large-3 columns hide-for-small-only">
 						<div class="social-media">
 							<p class="bold">Get in touch with us:</p>
-							<i class="fa fa-facebook-official"></i>
-							<i class="fa fa-twitter-square"></i>
-							<i class="fa fa-rss-square"></i>
-							<i class="fa fa-instagram"></i>
+							<a href="#"><i class="fa fa-facebook-official"></i></a>
+							<a href="#"><i class="fa fa-twitter-square"></i></a>
+							<a href="#"><i class="fa fa-rss-square"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
 						</div>
 					</div>
 				</div>
-				<div class="row display">
-					<div class="small-9 columns">
-						<div class="row display">
+				<div class="row">
+					<div class="medium-8 large-9 columns">
+						<div class="row">
 							<div class="small-12 medium-4 columns">
 								<ul>
-									<li class="bold">Contact</li>
-									<li>Mailing List</li>
-									<li>Volunteer</li>
+									<li class="bold"><a href="#">Contact</a></li>
+									<li><a href="#">Mailing List</a></li>
+									<li><a href="#">Volunteer</a></li>
 								</ul>
 								<ul>
-									<li class="bold">Apply</li>
-									<li>Apply for a Service Dog</li>
-									<li>Apply for a Released Dog</li>
+									<li class="bold"><a href="#">Apply</a></li>
+									<li><a href="#">Apply for a Service Dog</a></li>
+									<li><a href="#">Apply for a Released Dog</a></li>
 								</ul>
 							</div>
 							<div class="small-12 medium-4 columns">
 								<ul>
-									<li class="bold">About Us</li>
-									<li>FAQ</li>
-									<li>Puppy Placement</li>
+									<li class="bold"><a href="#">About Us</a></li>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">Puppy Placement</a></li>
 								</ul>
 								<ul>
-									<li class="bold">Awards &#38; Publications</li>
-									<li>PBB &#38; C2W Awards</li>
-									<li>Publications</li>
+									<li class="bold"><a href="#">Awards &#38; Publications</a></li>
+									<li><a href="#">PBB &#38; C2W Awards</a></li>
+									<li><a href="#">Publications</a></li>
 								</ul>
 							</div>
 							<div class="small-12 medium-4 columns">
 								<ul>
-									<li class="bold">Photos &#38; Videos</li>
-									<li>Holiday Cards &#38; Calendars</li>
-									<li>Vidoeos</li>
+									<li class="bold"><a href="#">Photos &#38; Videos</a></li>
+									<li><a href="#">Holiday Cards &#38; Calendars</a></li>
+									<li><a href="#">Videos</a></li>
 								</ul>
 							</div>
 						</div>
 					</div>
-					<div class="small-12 medium-3 columns">
+					<div class="medium-4 large-3 columns">
 						<div class="social-media show-for-small-only">
 							<p class="bold">Get in touch with us:</p>
-							<i class="fa fa-facebook-official"></i>
-							<i class="fa fa-twitter-square"></i>
-							<i class="fa fa-rss-square"></i>
-							<i class="fa fa-instagram"></i>
+							<a href="#"><i class="fa fa-facebook-official"></i></a>
+							<a href="#"><i class="fa fa-twitter-square"></i></a>
+							<a href="#"><i class="fa fa-rss-square"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
 						</div>
-						<p>263 West 38th Street, 4th Floor.<br>
+						<p class="footer-contact">263 West 38th Street, 4th Floor.<br>
 						   New York, NY 10018<br>
 						   Tel. 212.680.9562<br>
 						   Fax 212.689.9330<br>
@@ -85,7 +84,7 @@
 				<?php do_action( 'foundationpress_after_footer' ); ?>
 			</footer>
 		</div>
-		<div class="row display" id="copyright">
+		<div class="row" id="copyright">
 			<div class="small-12 columns text-center">
 				<p>Puppies Behind Bars 2016.</p>
 			</div>

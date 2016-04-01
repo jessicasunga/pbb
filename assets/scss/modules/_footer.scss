@@ -2,7 +2,6 @@
 	max-width: 100%;
 	width: 100%;
 	margin: 0 auto;
-	border-top: 1px solid #ccc;
 	margin-top: rem-calc(60);
 	background-color: $blue;
 
@@ -14,14 +13,34 @@
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
+			margin-bottom: 1.5em;
+
+			a {
+				color: inherit;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
 		}
 	}
 
 	.bold {font-weight: bold;}
 
 	.social-media {
-		p {margin-bottom: 0;}
+
+		a {color: inherit;}
+
+		p {
+			margin-bottom: 0; 
+			font-size: 1.5rem;
+		}
+
+		i {font-size: 2rem;}
+
 	}
+
+	.footer-contact {font-size: .85rem;}
 
 }
 
