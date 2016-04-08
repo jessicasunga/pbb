@@ -61,7 +61,7 @@
 				</div>
 			</div>
 			<div class="top-bar-right">
-				<div class="header-buttons">
+				<div class="header-buttons hide-for-small-only">
 					<a href="#" class="header-button medium button">Donate</a>
 					<a href="#" class="header-button medium button">Apply</a>
 				</div>

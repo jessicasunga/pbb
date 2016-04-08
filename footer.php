@@ -13,17 +13,24 @@
 		<div id="footer-container">
 			<footer id="footer">
 				<div class="row">
-					<div class="medium-8 large-9 columns">
-						<a href="#" class="footer-button button bold">Sponsor a Puppy</a>
-						<a href="#" class="footer-button button bold">Make a Donation</a>
+					<div class="medium-8 large-9 columns hide-for-small-only">
+						<a href="#" class="footer-button button bold"><img src="wp-content/themes/pbb/assets/images/pawprint.png">Sponsor a Puppy</a>
+						<a href="#" class="footer-button button bold"><img src="wp-content/themes/pbb/assets/images/donate.png">Make a Donation</a>
+					</div>
+					<div class="show-for-small-only">
+						<div class="small-12 columns">
+							<a href="#" class="footer-button button bold"><img src="wp-content/themes/pbb/assets/images/pawprint.png">Sponsor a Puppy</a>
+						</div>
+						<div class="small-12 columns">
+							<a href="#" class="footer-button button bold"><img src="wp-content/themes/pbb/assets/images/donate.png">Make a Donation</a>
+						</div>
 					</div>
 					<div class="medium-4 large-3 columns hide-for-small-only">
 						<div class="social-media">
 							<p class="bold">Get in touch with us:</p>
-							<a href="#"><i class="fa fa-facebook-official"></i></a>
-							<a href="#"><i class="fa fa-twitter-square"></i></a>
-							<a href="#"><i class="fa fa-rss-square"></i></a>
-							<a href="#"><i class="fa fa-instagram"></i></a>
+							<a href="#"><i class="fa fa-facebook-official facebook-blue"></i></a>
+							<a href="#"><i class="fa fa-twitter-square twitter-blue"></i></a>
+							<a href="#" class="instagram-blue"><i class="fa fa-instagram"></i></a>
 						</div>
 					</div>
 				</div>
@@ -66,10 +73,9 @@
 					<div class="medium-4 large-3 columns">
 						<div class="social-media show-for-small-only">
 							<p class="bold">Get in touch with us:</p>
-							<a href="#"><i class="fa fa-facebook-official"></i></a>
-							<a href="#"><i class="fa fa-twitter-square"></i></a>
-							<a href="#"><i class="fa fa-rss-square"></i></a>
-							<a href="#"><i class="fa fa-instagram"></i></a>
+							<a href="#"><i class="fa fa-facebook-official facebook-blue"></i></a>
+							<a href="#"><i class="fa fa-twitter-square twitter-blue"></i></a>
+							<a href="#" class="instagram-blue"><i class="fa fa-instagram"></i></a>
 						</div>
 						<p class="footer-contact">263 West 38th Street, 4th Floor.<br>
 						   New York, NY 10018<br>
@@ -83,10 +89,10 @@
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
 				<?php do_action( 'foundationpress_after_footer' ); ?>
 			</footer>
-		</div>
-		<div class="row" id="copyright">
-			<div class="small-12 columns text-center">
-				<p>Puppies Behind Bars 2016.</p>
+			<div class="row" id="copyright">
+				<div class="small-12 columns text-center">
+					<p>Puppies Behind Bars 2016.</p>
+				</div>
 			</div>
 		</div>
 		<?php do_action( 'foundationpress_layout_end' ); ?>
